@@ -1,0 +1,16 @@
+2026-06-21 13:00:09,478 - INFO - Starting data fetch at 2026-06-21_13-00-09
+2026-06-21 13:00:09,478 - INFO - Data will be saved to: .claude\skills\fetchAPI\data\2026-06-21_13-00-09
+2026-06-21 13:00:10,422 - INFO - Fetching: https://raw.githubusercontent.com/anshlambagit/AnshLambaYoutube/refs/heads/main/DBT_Masterclass/dim_customer.csv
+2026-06-21 13:00:10,922 - INFO - HTTP Request: GET https://raw.githubusercontent.com/anshlambagit/AnshLambaYoutube/refs/heads/main/DBT_Masterclass/dim_customer.csv "HTTP/1.1 200 OK"
+2026-06-21 13:00:11,084 - INFO - Fetching: https://raw.githubusercontent.com/anshlambagit/AnshLambaYoutube/refs/heads/main/DBT_Masterclass/dim_store.csv
+2026-06-21 13:00:11,340 - INFO - HTTP Request: GET https://raw.githubusercontent.com/anshlambagit/AnshLambaYoutube/refs/heads/main/DBT_Masterclass/dim_store.csv "HTTP/1.1 200 OK"
+2026-06-21 13:00:11,358 - INFO - Fetching: https://raw.githubusercontent.com/anshlambagit/AnshLambaYoutube/refs/heads/main/DBT_Masterclass/dim_date.csv
+2026-06-21 13:00:11,640 - INFO - HTTP Request: GET https://raw.githubusercontent.com/anshlambagit/AnshLambaYoutube/refs/heads/main/DBT_Masterclass/dim_date.csv "HTTP/1.1 200 OK"
+2026-06-21 13:00:11,652 - INFO - Fetching: https://raw.githubusercontent.com/anshlambagit/AnshLambaYoutube/refs/heads/main/DBT_Masterclass/dim_product.csv
+2026-06-21 13:00:11,919 - INFO - HTTP Request: GET https://raw.githubusercontent.com/anshlambagit/AnshLambaYoutube/refs/heads/main/DBT_Masterclass/dim_product.csv "HTTP/1.1 200 OK"
+2026-06-21 13:00:11,926 - INFO - Fetching: https://raw.githubusercontent.com/anshlambagit/AnshLambaYoutube/refs/heads/main/DBT_Masterclass/fact_sales.csv
+2026-06-21 13:00:12,262 - INFO - HTTP Request: GET https://raw.githubusercontent.com/anshlambagit/AnshLambaYoutube/refs/heads/main/DBT_Masterclass/fact_sales.csv "HTTP/1.1 200 OK"
+2026-06-21 13:00:12,278 - INFO - Fetching: https://raw.githubusercontent.com/anshlambagit/AnshLambaYoutube/refs/heads/main/DBT_Masterclass/fact_returns.csv
+2026-06-21 13:00:12,568 - INFO - HTTP Request: GET https://raw.githubusercontent.com/anshlambagit/AnshLambaYoutube/refs/heads/main/DBT_Masterclass/fact_returns.csv "HTTP/1.1 200 OK"
+2026-06-21 13:00:12,577 - INFO - Data fetch completed
+2026-06-21 13:00:12,580 - INFO - Log file saved to: .claude\skills\fetchAPI\logs\2026-06-21_13-00-09\fetchAPI.log
